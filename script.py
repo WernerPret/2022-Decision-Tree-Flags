@@ -44,3 +44,6 @@ score = mytree.score(x_test, y_test)
 # print(score)
 print(mytree)
 
+#  Print out tree
+text_tree = tree.export_text(mytree)
+print(text_tree)
